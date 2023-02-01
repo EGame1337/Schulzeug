@@ -58,3 +58,43 @@
   top: -100px;
   left: 155px;
 }
+:root .userProfileModalOuter-1FYL8T .topSection-1Khgkv .headerTop-212g15 .badgeList-2pMvZX {
+  padding: 0 0 10px 0;
+  background-color: transparent;
+}
+:root .userProfileModalOuter-1FYL8T .userProfileModalOverlayBackground-8p3-eU {
+  overflow: visible;
+}
+:root .userProfileModalOuter-1FYL8T .userProfileModalOverlayBackground-8p3-eU .nameTag-2ysfG3 {
+  position: absolute;
+  top: -150px;
+  left: 140px;
+  z-index: 1;
+  font-size: 23px;
+  font-weight: 600;
+}
+:root .userProfileModalOuter-1FYL8T .mask-1FEkla rect[fill=black], :root .userProfileModalOuter-1FYL8T .mask-1FEkla circle[fill=black] {
+  display: none;
+}
+:root .userProfileModalOuter-1FYL8T .mask-1FEkla .cursorDefault--wfhy5 rect, :root .userProfileModalOuter-1FYL8T .mask-1FEkla .pointerEvents-9SZWKj {
+  rx: calc(1px + var(--status-radius)) !important;
+  ry: calc(1px + var(--status-radius));
+}
+:root .userProfileModalOuter-1FYL8T .activityProfileV2-1N7pee {
+  padding: 16px;
+  margin: 12px;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 1;
+}
+:root .userProfileModalOuter-1FYL8T .activityProfileV2-1N7pee .headerText-3g1XK9, :root .userProfileModalOuter-1FYL8T .activityProfileV2-1N7pee .activityName-3YXl6e, :root .userProfileModalOuter-1FYL8T .activityProfileV2-1N7pee .content-tXPNDw,
+:root .userProfileModalOuter-1FYL8T .activityProfileV2-1N7pee .details-2-ciHo, :root .userProfileModalOuter-1FYL8T .activityProfileV2-1N7pee .name-1-Q7l2, :root .userProfileModalOuter-1FYL8T .activityProfileV2-1N7pee .nameNormal-2fPMD2, :root .userProfileModalOuter-1FYL8T .activityProfileV2-1N7pee .nameWrap-3TyM52 {
+  color: white;
+}
+:root .userProfileModalOuter-1FYL8T .activityProfileV2-1N7pee .button-TGAkj4 {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1294117647);
+  -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1294117647);
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1294117647);
+  color: #fff;
+}
