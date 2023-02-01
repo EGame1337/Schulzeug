@@ -40,3 +40,21 @@
 :root .userProfileModalOuter-1FYL8T .topSection-1Khgkv .avatar-1YsFQ1 {
   top: -143px;
 }
+:root .userProfileModalOuter-1FYL8T .topSection-1Khgkv .bannerSVGWrapper-qc0szY[viewBox="0 0 600 106"] foreignObject {
+  -webkit-transform: translateY(-22px);
+          transform: translateY(-22px);
+}
+:root .userProfileModalOuter-1FYL8T .topSection-1Khgkv .bannerSVGWrapper-qc0szY .banner-2boKnS {
+  height: 160px;
+}
+:root .userProfileModalOuter-1FYL8T .topSection-1Khgkv .avatar-1YsFQ1 {
+  top: -143px;
+}
+:root .userProfileModalOuter-1FYL8T .topSection-1Khgkv .headerTop-212g15 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: -100px;
+  left: 155px;
+}
