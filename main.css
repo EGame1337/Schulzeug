@@ -1,0 +1,39 @@
+@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
+@import url("https://nyri4.github.io/donators/donators.css");
+:root .buttons-3dF5Kd {
+  -webkit-transition: opacity 150ms;
+  transition: opacity 150ms;
+}
+:root .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW {
+  position: fixed;
+  bottom: 26.5px;
+  left: 327.5px;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  min-width: unset;
+}
+:root .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW > .avatar-1EWyVD {
+  width: 40px !important;
+  height: 40px !important;
+}
+:root .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW > .avatar-1EWyVD foreignObject {
+  width: 100% !important;
+  height: 100% !important;
+}
+:root .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW > .avatar-1EWyVD .pointerEvents-9SZWKj {
+  x: 31px;
+  y: 31px;
+}
+:root .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW > .avatar-1EWyVD:hover {
+  opacity: 1;
+}
+:root .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW > .avatar-1EWyVD + .nameTag-sc-gpq {
+  display: none;
+}
+:root .content-1SgpWY > :nth-child(2):not(.chat-2ZfjoI), :root .callContainer-BGIngG, :root .gatedContent-31-gID, :root .chat-2ZfjoI > .content-1jQy2l > .pageContainer-36uo3F, :root .content-1jQy2l > .container-3wLKDe {
+  z-index: 2;
+}
+:root .chat-2ZfjoI .form-3gdLxP {
+  padding-left: 66px;
+}
