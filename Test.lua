@@ -1,0 +1,1 @@
+print(os.date("Heute ist der %A , der %d/%m/%Y"))

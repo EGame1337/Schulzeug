@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<h1> Mathe :) 
+   <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+</h1>
+
+<b>
+   <py-config>
+
+  
+   </py-config>
+
+   <py-script>
+
+      import math
+
+      #Bei allen zahlen die NICHT gegeben sind "0" eingeben
+      #In der Oberfläche "O" sollte nichts eingegeben werden  
+      
+      r = 0
+      h = 0
+      G = 20
+      M = 30
+      O = 0
+      
+      if r and h > 0:
+          print("r =",r)
+          print("h =",h)
+          print("")
+      
+          G = math.pi * r**2
+          M = 2 * math.pi * r * h
+      
+          print("O = 2 * G + M")
+          print("")
+          print("G = pi * r ^2")
+          print("  = pi *",r,"^2")
+          print("G =",G)
+          print("")
+          print("M = 2 * pi * r * h")
+          print("  = 2 * pi *",r,"*",h,)
+          print("M =",M)
+          print("")
+          print("O = 2 * G + M")
+          print("  = 2 *",G,"*",M)
+          print("O =",2 * G + M)
+      
+      elif r and M > 0:
+          print("r =",r)
+          print("M =",M)
+          print("")
+      
+          h = (M / math.pi / 2) / r
+          G = math.pi * r**2
+      
+          print("O = 2 * G + M")
+          print("")
+          print("G = pi * r ^2")
+          print("  = pi *",r,"^2")
+          print("G =",G)
+          print("")
+          print("h = ( M / 2 * pi ) / r ")
+          print("  =",M,"/ 2 * pi /",r,)
+          print("h =",h)
+          print("")
+          print("O = 2 * G + M")
+          print("  = 2 *",G,"*",M)
+          print("O =",2 * G + M)
+      
+      elif h and M > 0:
+          print("h =",h)
+          print("M =",M)
+          print("")
+      
+          r = (M / math.pi / 2) / h
+          G = math.pi * r**2
+      
+          print("O = 2 * G + M")
+          print("")
+          print("r = ( M / 2 * pi ) / h ")
+          print("  =",M,"/ 2 * pi /",h,)
+          print("r =",r)
+          print("")
+          print("G = pi * r ^2")
+          print("  = pi *",r,"^2")
+          print("G =",G)
+          print("")
+          print("")
+          print("O = 2 * G + M")
+          print("  = 2 *",G,"*",M)
+          print("O =",2 * G + M)
+      
+      elif h and G > 0:
+          print("h =",h)
+          print("G =",G)
+          print("")
+      
+          r = math.sqrt(G / math.pi)
+          M = 2 * math.pi * r * h
+      
+          print("O = 2 * G + M")
+          print("")
+          print("r = wurz.( G / pi ) ")
+          print("  = wurz.(",G,"/ pi )")
+          print("r =",r)
+          print("")
+          print("M = 2 * pi * r * h")
+          print("  = 2 * pi *",r,"*",h)
+          print("M =",M)
+          print("")
+          print("")
+          print("O = 2 * G + M")
+          print("  = 2 *",G,"*",M)
+          print("O =",2 * G + M)
+      
+      else:
+          print("G =",G)
+          print("M =",M)
+          print("")
+      
+          r = math.sqrt(G / math.pi)
+          h = (M / math.pi / 2) / r
+      
+          print("O = 2 * G + M")
+          print("")
+          print("r = wurz.( G / pi ) ")
+          print("  = wurz.(",G,"/ pi )")
+          print("r =",r)
+          print("")
+          print("h = ( M / pi / 2 ) / r ")
+          print("  =",M,"/ pi / 2 /",r,)
+          print("h =",h)
+          print("")
+          print("")
+          print("O = 2 * G + M")
+          print("  = 2 *",G,"*",M)
+          print("O =",2 * G + M)
+      
+          
+
+   </py-script>
+
+</b>
+
+
