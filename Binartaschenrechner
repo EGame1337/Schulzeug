@@ -1,0 +1,61 @@
+import math
+
+binar = []
+
+lenge = len(binar)
+
+Zahl = input("Zahl eingeben: ")
+
+Zahl = int(Zahl)
+
+Ergebnis = Zahl
+
+if Zahl < 0:
+
+	Zahl = Zahl - Zahl * 2
+
+while Zahl != 0 and Zahl < 128:
+
+	Zahl = int(Zahl)
+
+	Zahl = Zahl / 2
+
+	if Zahl != math.floor(Zahl):
+
+		Zahl = math.floor(Zahl)
+
+		binar.append(1)
+
+		continue
+
+	if Zahl == math.floor(Zahl):
+
+		binar.append(0)
+
+if Zahl == 0:
+
+	Nullen = 8 - len(binar)
+
+	print(Ergebnis)
+
+	print(binar)
+
+	print(Nullen)
+
+	
+
+	while Nullen != 0:
+
+		binar.append(0)
+
+		Nullen = Nullen - 1
+
+	if Nullen == 0:
+
+		binar = binar[::-1]
+
+		print(binar)
+
+	
+
+	if Ergebnis < 0:
