@@ -1,0 +1,47 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    zoom: 150%;
+}
+#SE_Logo{
+    width: 100px;
+    float: right;
+}
+
+.strich_u{
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 7px;
+    margin-top: 50px;
+}
+.Bilder1{
+    margin-left: 1%;
+    height: 96%;
+    border-radius: 10px;
+}
+#Bild1div{
+    height: 282px;
+    width: 100%;
+}
+#Fastnachtszug{
+    width: 150px;
+    position: relative;
+    top: 25px;
+}
+#Eschathlon{
+    width: 150px;
+    position: relative;
+    top: 15px;
+}
+#EDreieck{
+    height: 270.72px;
+    border-radius: 10px;
+}
+#Tabele{
+    border-collapse: collapse;    
+}
+th, td{
+    border: 2px solid black;
+    padding: 7.5px;
+}
