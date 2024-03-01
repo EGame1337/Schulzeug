@@ -1,0 +1,43 @@
+#text1{
+    background-color: white;
+    color: black;
+    zoom: 150%;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    transition-duration: 0.2s;
+}
+#text1:hover{
+    background-color: rgb(175, 175, 175);
+    color: white;
+}
+#button1{
+    background-color: white;
+    color: dodgerblue;
+    zoom: 150%;
+    border-color: dodgerblue;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    transition-duration: 0.2s;
+    cursor: auto;
+}
+#button1:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+#button2{
+    background-color: white;
+    color: chartreuse;
+    zoom: 150%;
+    border-color: chartreuse;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    transition-duration: 0.2s;
+    cursor: auto;
+}
+#button2:hover{
+    background-color: chartreuse;
+    color: white;
+}
