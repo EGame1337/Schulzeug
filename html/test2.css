@@ -3,6 +3,15 @@ body{
     margin: 5px;
     zoom: 150%;
 }
+#button1{
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+}
+#button1:hover{
+    background-color: gray;
+    color: white;
+}
 #label2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
